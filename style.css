@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Noto+Sans:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300;1,500&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+/* global style start here */
+:root{
+    --back: rgb(53, 52, 52);
+    --background: #f7f30017;
+
+}
+
+*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    list-style-type: none;
+    transition: all .2s linear;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+    margin: 0 100px;
+}
+
+::selection {
+    background-color: yellow;
+    color: var(--back);
+}
+
+.heading { 
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--back);
+}
+
+/* topbar start */
+#home-section {
+    background-image: url(image/bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 -100px;
+}
+
+.topbar ul {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.topbar {
+    padding: 13px 0;
+    background-color: rgb(53, 52, 52);
+    color: rgb(221, 221, 221);
+    margin: 0 100px;
+}
+
+/* home start here */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1.5rem; 
+}
+
+.header .btn1 {
+    padding: 7px 12px;
+    background-color: var(--back);
+    color: #fff;
+    border-radius: 10%;
+}
+
+.header .btn2 {
+    padding: 7px 12px;
+    background-color: #fff;
+    color: rgb(40, 44, 2);
+    border-radius: 10%;
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+}
+
+.sreach-bar{
+    display: flex;
+    gap: 2rem;
+}
+
+.sreach-bar>:nth-child(2) {
+    width: 500px;
+    padding: 5px 2px;
+    font-size: 14px;
+}
+
+/* fashion section start */
+
+#fashion {
+    margin-top: -4rem;
+    margin-bottom: 3rem;
+}
+
+#fashion .f-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.f-title h2 {
+    color: var(--back);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.f-product {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.single-product {
+    background: white;
+    box-shadow:  0px 19px 60px rgb(0 0 0 / 8%);
+    padding: 2rem; 
+}
+
+.p-name-price p {
+    font-weight: bold;
+    color: var(--back);
+}
+.p-name-price span {
+    color: red;
+}
+
+#p-dollar {
+    color: var(--back);
+}
+
+.p-img img {
+    width: 290px;
+    height: auto;
+}
+
+.p-des {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-mb {
+    margin-top: 3.2rem;  
+}
+
+.nevi_arrow {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left-arrow {
+    background: black;
+    font-size: 35px;
+    color: white;
+    padding: 0 20px;
+}
+
+.right-arrow {
+    background: orangered;
+    font-size: 35px;
+    color: white;
+    padding: 0 20px;
+}
+
+/* footer aria */
+.footer-aria {
+    background: #000;
+    color: #fff;
+    margin: 0 -100px;
+}
+
+
